@@ -1,0 +1,29 @@
+/*==== BASE STYLES ==== */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  font-size: 1em;
+  background-color: #181F2A;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+}
+
+.full-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+img {
+  width: 80%;
+}
