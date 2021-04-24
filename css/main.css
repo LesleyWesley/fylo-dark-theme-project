@@ -27,6 +27,7 @@ section {
   align-items: center;
   flex-flow: row wrap;
   width: 90%;
+  margin: 0 auto;
 }
 
 img {
@@ -42,9 +43,10 @@ header {
   flex-flow: nowrap;
   width: 100%;
   padding: 25px 0 50px 0;
+  background-color: #1C2431;
 }
 
-.full-width {
+header .full-width {
   justify-content: space-between;
 }
 
@@ -73,4 +75,14 @@ nav ul li a {
 nav ul li a:hover {
   font-weight: 700;
   text-decoration: underline;
+}
+
+/*========= HERE SECTION - MOBILE =========== */
+
+#hero {
+  background-color: #1C2431;
+}
+
+h1 {
+  
 }
