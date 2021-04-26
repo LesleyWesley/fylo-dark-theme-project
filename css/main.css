@@ -80,8 +80,17 @@ nav ul li a:hover {
 /*========= HERE SECTION - MOBILE =========== */
 
 #hero {
-  background-color: #1C2431;
+  background: linear-gradient(
+      180deg,
+      #1C2431 0px,
+      #1C2431 200px,
+      #181F2A 200px,
+      #181F2A) ;
   padding-bottom: 100px;
+  background-image: url("../img/bg-curvy-mobile.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 33%;
 }
 
 h1 {
@@ -96,6 +105,7 @@ p {
   padding: 0 20px;
   text-align: center;
   line-height: 1.6em;
+  margin: 0;
 }
 
 #hero a {
@@ -105,6 +115,7 @@ p {
   text-decoration: none;
   color: #FFF;
   margin: 25px 0;
-  padding: 15px 75px;
-  background-color: blue;
+  padding: 15px 70px;
+  border-radius: 20px;
+  background-image: linear-gradient(90deg, #65E2D9, #339ECC);
 }
