@@ -145,7 +145,7 @@ p {
   line-height: 1.75em;
 }
 
-/*====== STAY PRODUCTIVE SECTION ========== */
+/*====== STAY PRODUCTIVE SECTION - MOBILE ========== */
 #stay-productive {
   padding: 75px 0 100px 0;
 }
@@ -165,7 +165,7 @@ p {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 1.4em;
-  padding: 40px 0 10px 0;
+  padding: 50px 0 10px 0;
 }
 
 #stay-productive p {
@@ -190,4 +190,47 @@ p {
 #stay-productive a img {
   width: 18px;
   padding-left: 7px;
+}
+
+/*======= TESTIMONIALS SECTION - MOBILE ===============*/
+
+#testimonial-section {
+  margin: 75px 0;
+}
+
+.testimonials-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.testimonial {
+  background-color: #202A3C;
+  margin: 25px 0;
+  padding: 25px 15px;
+}
+
+.testimonial p {
+  font-size: .80em;
+  text-align: left;
+  padding: 0;
+  line-height: 1.9em;
+}
+
+.customer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: nowrap;
+}
+
+.testimonial img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.customer-name {
+  padding-left: 10px;
 }
