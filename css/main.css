@@ -204,12 +204,19 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-image: url("../img/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: top left;
+  background-position-x: 5px;
+  background-position-y: -5px;
 }
 
 .testimonial {
   background-color: #202A3C;
-  margin: 25px 0;
-  padding: 25px 15px;
+  margin: 15px 0;
+  padding: 25px 25px 15px 25px;
+  border-radius: 2%;
 }
 
 .testimonial p {
@@ -224,13 +231,26 @@ p {
   justify-content: flex-start;
   align-items: center;
   flex-flow: nowrap;
+  padding-top: 5px;
 }
 
 .testimonial img {
-  width: 10%;
+  width: 12%;
   border-radius: 50%;
+  margin-top: 7px;
 }
 
 .customer-name {
   padding-left: 10px;
+}
+
+.customer-name h3 {
+  margin-bottom: 0;
+  font-size: .9em;
+}
+
+.customer-name h4 {
+  margin-top: 5px;
+  font-size: .6em;
+  font-weight: 400;
 }
