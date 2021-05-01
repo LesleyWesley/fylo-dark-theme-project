@@ -209,7 +209,7 @@ p {
   background-size: 25px;
   background-position: top left;
   background-position-x: 5px;
-  background-position-y: -5px;
+  padding-top: 5px;
 }
 
 .testimonial {
