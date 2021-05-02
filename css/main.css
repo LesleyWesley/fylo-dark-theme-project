@@ -254,3 +254,39 @@ p {
   font-size: .6em;
   font-weight: 400;
 }
+
+/*====== ASIDE SECTION - MOBILE ======== */
+
+aside {
+  background-color: #1C2431;
+  width: 90%;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 25px 15px;
+  padding: 25px 0 40px 0;
+}
+
+aside .full-width {
+  width: 90%;
+}
+
+aside h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4em;
+}
+
+aside p {
+  font-size: 1.1em;
+  width: 100%;
+  padding: 0;
+  margin: 10px 0 25px 0;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+}
