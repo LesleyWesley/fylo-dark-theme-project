@@ -16,15 +16,18 @@ body {
 
 .content-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 90%;
+  width: 85%;
 }
 
-img {
-  width: inherit;
+p {
+  text-align: center;
+  line-height: 1.7em;
 }
+
+
 
 /*===== HEADER SECTION - MOBILE ====*/
 
@@ -35,6 +38,10 @@ header {
   align-items: center;
   background-color: #1C2431;
   padding-top: 1em;
+}
+
+header .content-container {
+  justify-content: space-between;
 }
 
 header img {
@@ -58,4 +65,56 @@ nav a {
   text-decoration: none;
   padding: 0;
   font-size: .85em;
+}
+
+/*=== HERO SECTION - MOBILE === */
+
+.hero {
+  background: linear-gradient(#1C2431 0%, #1C2431 55%, #181F2A 55%, #181F2A 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+}
+
+
+
+.background-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/bg-curvy-mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 13.5em;
+}
+
+.hero img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.75em;
+  line-height: 1.6em;
+  margin-top: 1.7em;
+}
+
+.hero p {
+  margin-top: 0;
+  width: 93%;
+}
+
+.hero a {
+  width: 80%;
+  text-align: center;
+  background: linear-gradient(90deg, #65E2D9, #339ECC);
+  text-decoration: none;
+  color: #FFF;
+  padding: 1.125em 0;
+  border-radius: 1.75em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-top: 1.5em;
 }
