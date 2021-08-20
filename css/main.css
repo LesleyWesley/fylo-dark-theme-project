@@ -1,0 +1,61 @@
+/* BASE STYLES */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  padding-bottom: 4em;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #FFF;
+  background-color: #181F2A;
+  font-size: .875em;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+img {
+  width: inherit;
+}
+
+/*===== HEADER SECTION - MOBILE ====*/
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C2431;
+  padding-top: 1em;
+}
+
+header img {
+  width: 25%;
+}
+
+nav {
+  width: 60%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width:
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 0;
+  font-size: .85em;
+}
