@@ -125,7 +125,7 @@ h1 {
 /*==== FEATURES SECTION =====*/
 
 .features {
-  padding: 10em 0;
+  padding: 10em 0 6em 0;
 }
 
 .single-feature {
@@ -137,11 +137,48 @@ h1 {
 }
 
 .single-feature img {
-  width: 20%;
+  width: 22%;
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.35em;
   font-family: "Raleway", sans-serif;
   margin: 2em 0 0 0;
+}
+
+/*==== PRODUCTIVITY SECTION - MOBILE ======= */
+
+.productivity img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.productivity-text-section {
+  display: flex;
+  justify-content: center;
+  align-items: flext-start;
+  flex-direction: column;
+}
+
+.productivity-text-section p {
+  text-align: left;
+  width: 100%;
+}
+
+.productivity-text-section a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 48%;
+  font-size: 1em;
+  text-decoration: none;
+  color: #65E2D9;
+  border-bottom: 1px solid #65E2D9;
+  padding-top: /85em;
+}
+
+.productivity-text-section img {
+  width: 10%;
+  margin-bottom: 0;
+  padding-left: .5em;
 }
