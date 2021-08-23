@@ -182,3 +182,55 @@ h2 {
   margin-bottom: 0;
   padding-left: .5em;
 }
+
+/*==== TESTIMONIALS SECTION - MOBILE ===== */
+
+.testimonials {
+  padding: 10em 0;
+  background-image: url("../img/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-position-y: 9.75em;
+  background-position-x: 3.75em;
+  background-size: 7%;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #202A3C;
+  padding: 1.25em;
+  width: 80%;
+  border-radius: 2%;
+  margin: 1em 0;
+}
+
+article p {
+  text-align: left;
+  font-size: .8em;
+  margin-top: 0;
+}
+
+article img {
+  width: 12%;
+  border-radius: 50%;
+  margin-right: .5em;
+}
+
+.customer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: .5em;
+}
+
+.caption h4 {
+  margin: 0;
+  font-size: .8em;
+}
+
+.caption p {
+  margin-top: .5em;
+  font-size: .5em;
+}
