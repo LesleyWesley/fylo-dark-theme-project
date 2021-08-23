@@ -234,3 +234,71 @@ article img {
   margin-top: .5em;
   font-size: .5em;
 }
+
+/*==== EMAIL SECTION - MOBILE ===*/
+
+.signup {
+  background: linear-gradient(#181F2A 0%, #181F2A 50%, #0B1523 50%, #0B1523 100%);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  background-color: #1C2431;
+  border-radius: 3%;
+  padding: 1.25em;
+  box-shadow: 0 .5em 10px #000;
+}
+
+form p {
+  margin: 0;
+  width: 92%;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+input {
+  margin: 2em 0 .125em 0;
+  padding: 1.125em 2em;
+  width: 80%;
+  border-radius: 2em;
+  border: none;
+}
+
+input:active {
+  border: none;
+}
+
+input::placeholder {
+  font-size: .9em;
+  opacity: .5;
+}
+
+.input-section p {
+  font-size: .8em;
+  text-align: left;
+  margin-bottom: .5em;
+  margin-left: 2em;
+  color: #FF4242;
+}
+
+button {
+  width: 100%;
+  padding: 1.125em;
+  color: #FFF;
+  background: linear-gradient(90deg, #65E2D9, #339ECC);
+  border: none;
+  border-radius: 2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
