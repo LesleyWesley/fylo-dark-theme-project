@@ -404,3 +404,7 @@ i.fab.fa-facebook-f {
 .hide {
   opacity: 0;
 }
+
+.unhide {
+  opacity: 1;
+}
