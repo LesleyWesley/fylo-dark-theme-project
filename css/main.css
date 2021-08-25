@@ -6,7 +6,6 @@ body {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  padding-bottom: 4em;
   width: 100%;
   font-family: "Open Sans", sans-serif;
   color: #FFF;
@@ -239,6 +238,7 @@ article img {
 
 .signup {
   background: linear-gradient(#181F2A 0%, #181F2A 50%, #0B1523 50%, #0B1523 100%);
+  padding-bottom: 1em;
 }
 
 form {
@@ -301,4 +301,106 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   margin-bottom: 1em;
+}
+
+/*====== FOOTER - MOBILE ====*/
+
+footer {
+  background-color: #0B1523;
+  padding: 6em 0 4em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .content-container {
+  justify-content: flex-start;
+}
+
+.footer-main-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+address {
+  font-style: normal;
+  margin: 3em 0 3em 0;
+  font-size: 1.13em;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.125em;
+}
+
+.address {
+  align-items: flex-start;
+}
+
+.address img {
+  padding-top: .5em;
+}
+
+.contact img {
+  padding-right: 1em;
+}
+
+.contact p {
+  text-align: left;
+  margin: 0;
+}
+
+.contact a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer nav ul {
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+footer nav ul li {
+  font-size: 1.3em;
+  margin-bottom: .5em;
+}
+
+.nav-divider {
+  margin-top: 2em;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4em 7em 0 7em;
+}
+
+i {
+  color: #FFF;
+  font-size: 1.125em;
+  padding: .5em;
+  border-radius: 50%;
+  border: 1px solid #FFF;
+}
+
+i.fab.fa-facebook-f {
+  padding: .5em .75em;
+}
+
+.hide {
+  opacity: 0;
 }
