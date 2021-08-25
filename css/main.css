@@ -405,6 +405,27 @@ i.fab.fa-facebook-f {
   opacity: 0;
 }
 
-.unhide {
-  opacity: 1;
+/*====== ACTIVE STATES ====== */
+
+nav a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.hero a:hover {
+  background: #65E2D9;
+}
+
+.productivity-text-section a:hover {
+  color: #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+button:hover {
+  background: #65E2D9;
+}
+
+i:hover {
+  color: #65E2D9;
+  border: 1px solid #65E2D9;
 }
