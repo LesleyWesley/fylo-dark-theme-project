@@ -55,6 +55,7 @@ header img {
 
 nav {
   width: 60%;
+  max-width: 20em;
 }
 
 nav ul {
@@ -79,6 +80,11 @@ nav a {
   padding-top: 3em;
 }
 
+.hero .content-container,
+.features .content-container {
+  max-width: 40em;
+}
+
 
 
 .background-div {
@@ -101,15 +107,18 @@ h1 {
   font-size: 1.75em;
   line-height: 1.6em;
   margin-top: 1.7em;
+  max-width: 20em;
 }
 
 .hero p {
   margin-top: 0;
   width: 93%;
+  max-width: 30em;
 }
 
 .hero a {
   width: 80%;
+  max-width: 20em;
   text-align: center;
   background: linear-gradient(90deg, #65E2D9, #339ECC);
   text-decoration: none;
@@ -180,6 +189,7 @@ h2 {
   width: 10%;
   margin-bottom: 0;
   padding-left: .5em;
+  max-width: 1em;
 }
 
 /*==== TESTIMONIALS SECTION - MOBILE ===== */
@@ -301,6 +311,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   margin-bottom: 1em;
+  max-width: 15em;
 }
 
 /*====== FOOTER - MOBILE ====*/
@@ -428,4 +439,74 @@ button:hover {
 i:hover {
   color: #65E2D9;
   border: 1px solid #65E2D9;
+}
+
+/*============================================*/
+
+@media (min-width: 700px) {
+
+  .hero {
+    background: #1C2431;
+  }
+
+  .background-div {
+    background-image: url("../img/bg-curvy-desktop.svg");
+    background-position: bottom center;
+    width: 100%;
+}
+
+  /*=== FEATURES SECTION - TABLET === */
+
+  .features .content-container {
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .single-feature {
+    width: 45%;
+  }
+
+  /*==== PRODUCTIVITY SECTION - TABLET === */
+
+  .productivity .content-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .productivity img,
+  .productivity-text-section {
+    width: 48%;
+  }
+
+  .productivity-text-section a {
+    width: 50%;
+  }
+
+  /*=== EMAIL SECTION - TABLET ===*/
+
+  .input-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 2em;
+  }
+
+  input {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  button {
+    margin-bottom: 0;
+  }
+
+  .input-section p {
+    order: 2;
+  }
+
+
 }
