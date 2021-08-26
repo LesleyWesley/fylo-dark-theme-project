@@ -508,5 +508,11 @@ i:hover {
     order: 2;
   }
 
+  /*=== FOOTER - TABLET === */
+
+  .social-icons {
+    margin: 4em 15em 0 15em;
+  }
+
 
 }
