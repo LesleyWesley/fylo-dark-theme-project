@@ -55,7 +55,7 @@ header img {
 
 nav {
   width: 60%;
-  max-width: 20em;
+  max-width: 17em;
 }
 
 nav ul {
@@ -514,5 +514,21 @@ i:hover {
     margin: 4em 15em 0 15em;
   }
 
+}
 
+/*===========================================*/
+
+@media (min-width: 1000px) {
+
+  .content-container {
+    width: 90%;
+  }
+
+  header {
+    padding: 3em 0;
+  }
+
+  header img {
+    width: 12%;
+  }
 }
