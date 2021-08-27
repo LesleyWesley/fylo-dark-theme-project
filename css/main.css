@@ -354,10 +354,12 @@ address {
 
 .address img {
   padding-top: .5em;
+  max-width: 1.1em
 }
 
 .contact img {
   padding-right: 1em;
+  max-width: 1.1em;
 }
 
 .contact p {
@@ -487,6 +489,10 @@ i:hover {
 
   /*=== EMAIL SECTION - TABLET ===*/
 
+  form {
+    max-width: 45em;
+  }
+
   .input-section {
     flex-direction: row;
     align-items: center;
@@ -572,5 +578,87 @@ i:hover {
   .productivity-text-section a {
     width: 34%;
     margin-top: 1em;
+  }
+
+  /*==== TESTIMONIALS SeCTION - DESKTOP === */
+
+  .testimonials {
+    background-position-y: 9.25em;
+    background-position-x: 3em;
+    background-size: 4%;
+  }
+
+  .testimonials .content-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  article {
+    width: 28%;
+  }
+
+  .caption h4 {
+    font-size: .6em;
+  }
+
+  .caption p {
+    font-size: .4em;
+  }
+
+  /*===== EMAIL SECTION - DESKTOP ==== */
+
+  form h3 {
+    font-size: 1.75em;
+  }
+
+  form p {
+    width: 83%;
+  }
+
+  /*==== FOOTER - DESKTOP ==== */
+
+  .footer-logo {
+    width: 15%;
+  }
+
+  .footer-main-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3em;
+  }
+
+  address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    flex-direction: column;
+    flex-flow: wrap;
+    font-size: .8em;
+    margin-top: 0;
+  }
+
+
+  .address {
+    width: 60%;
+  }
+
+  .social-icons {
+    margin: 0;
+    width: 13%;
+  }
+
+  footer nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 83%;
+    margin-top: 0;
+    font-size: .8em;
+  }
+
+  .nav-divider {
+    margin-top: 0;
   }
 }
