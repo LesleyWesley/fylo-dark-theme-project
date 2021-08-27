@@ -491,6 +491,7 @@ i:hover {
 
   .productivity-text-section a {
     width: 50%;
+    min-width: 11em;
   }
 
   /*=== EMAIL SECTION - TABLET ===*/
@@ -579,10 +580,19 @@ i:hover {
 
   /*===== PRODUCTIVITY SECTION - DESKTOP ==== */
 
+
+  .productivity .content-container {
+    width: 80%;
+  }
   .productivity h2 {
     font-size: 2em;
     width: 75%;
+    max-width: 12em;
     margin-top: 0;
+  }
+
+  .productivity-text-section {
+    max-width: 36em;
   }
 
   .productivity-text-section p {
@@ -595,7 +605,7 @@ i:hover {
     max-width: 11em;
   }
 
-  /*==== TESTIMONIALS SeCTION - DESKTOP === */
+  /*==== TESTIMONIALS SECTION - DESKTOP === */
 
   .testimonials {
     background-position-y: 9.25em;
