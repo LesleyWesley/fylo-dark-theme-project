@@ -322,10 +322,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 footer .content-container {
   justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .footer-main-content {
@@ -617,6 +620,10 @@ i:hover {
 
   /*==== FOOTER - DESKTOP ==== */
 
+  footer {
+    padding-top: 3em;
+  }
+
   .footer-logo {
     width: 15%;
   }
@@ -626,6 +633,7 @@ i:hover {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 3em;
+    width: 100%;
   }
 
   address {

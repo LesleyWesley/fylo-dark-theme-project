@@ -43,6 +43,7 @@ document.addEventListener("keydown", function (e) {
 
    if (email.match(mailformat)) {
      clearInput();
+     validateMessage.classList.add("hide");
    } else {
      validateMessage.classList.remove("hide");
    }
