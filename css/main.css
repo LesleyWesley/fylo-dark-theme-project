@@ -73,6 +73,7 @@ nav a {
   font-size: .85em;
 }
 
+
 /*=== HERO SECTION - MOBILE === */
 
 .hero {
@@ -424,7 +425,9 @@ i.fab.fa-facebook-f {
 /*====== ACTIVE STATES ====== */
 
 nav a:hover {
-  font-weight: 700;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFF;
   text-decoration: underline;
 }
 
@@ -541,6 +544,10 @@ i:hover {
     width: 12%;
   }
 
+  nav {
+    position: relative;
+  }
+
   /*==== HERO SECTION DESKTOP ===*/
 
     h1 {
@@ -562,6 +569,10 @@ i:hover {
     width: 75%;
   }
 
+  .single-feature {
+    max-width: 28em;
+  }
+
   img.shield {
     width: 18%;
   }
@@ -581,6 +592,7 @@ i:hover {
   .productivity-text-section a {
     width: 34%;
     margin-top: 1em;
+    max-width: 11em;
   }
 
   /*==== TESTIMONIALS SeCTION - DESKTOP === */
