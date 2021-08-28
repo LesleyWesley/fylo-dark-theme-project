@@ -259,7 +259,7 @@ form {
   flex-direction: column;
   width: 80%;
   background-color: #1C2431;
-  border-radius: 3%;
+  border-radius: .75em;
   padding: 1.25em;
   box-shadow: 0 .5em 10px #000;
 }
@@ -497,7 +497,7 @@ i:hover {
   /*=== EMAIL SECTION - TABLET ===*/
 
   form {
-    max-width: 45em;
+    max-width: 50em;
   }
 
   .input-section {
@@ -609,17 +609,19 @@ i:hover {
 
   .testimonials {
     background-position-y: 9.25em;
-    background-position-x: 3em;
+    background-position-x: 7em;
     background-size: 4%;
   }
 
   .testimonials .content-container {
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
   }
 
   article {
     width: 28%;
+    max-width: 35em;
   }
 
   .caption h4 {
@@ -690,5 +692,22 @@ i:hover {
 
   .nav-divider {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .testimonials {
+    background-position-y: 8.5em;
+    background-position-x: 9.5em;
+    background-size: 4%;
+  }
+
+  article {
+    padding: 1.75em;
+  }
+
+  article p {
+    font-size: 1em;
   }
 }
