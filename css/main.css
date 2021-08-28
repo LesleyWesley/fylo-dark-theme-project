@@ -519,6 +519,7 @@ i:hover {
 
   .input-section p {
     order: 2;
+    padding-left: 2.5em;
   }
 
   /*=== FOOTER - TABLET === */
@@ -674,11 +675,13 @@ i:hover {
 
   .address {
     width: 60%;
+    max-width: 23em;
   }
 
   .social-icons {
     margin: 0;
     width: 13%;
+    max-width: 10em;
   }
 
   footer nav ul {
@@ -709,5 +712,15 @@ i:hover {
 
   article p {
     font-size: 1em;
+  }
+
+  address {
+    font-size: 1em;
+  }
+
+
+  footer nav ul {
+    font-size: 1em;
+    width: 90%;
   }
 }
